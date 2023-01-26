@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f1efef;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .free-button{
+            color: rgb(253, 253, 253);
+            text-decoration: none;
+            background-color: tomato;
+            padding: 12px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .arrow{
+            margin-left: 10px;
+           
+            
+        }
+        .free-button:hover{
+            color: blue;
+            background-color: #fff;
+            transition: 0.35 ease;
+            border: 2px solid #066b6b;
+            text-align: center;
+        }
+        .section-title {
+            color: #020008;
+            font-size: 40px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-content: center;
+            width: 870px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+        .meci img{
+            width: 440px;
+        }
+        .course-detail a{
+            background-color: rgb(230, 228, 228);
+            text-decoration: none;
+            border: 1px solid black;
+            color: #020008;
+            border-radius: 3px;
+            padding: 0 5px;
+        }
+        /* fist section end */
+
+
+        /* 2nd section start */
+        .menus{
+            width: 200px;
+            height: 200px;
+            background-color: #020008;
+            border-radius: 5px;
+            margin: 15px;
+        }
+        .menus .menu a{
+            text-decoration: none;
+            background-color: rgb(255, 255, 255);
+            color: rgb(15, 0, 0);
+            border-radius: 5px;
+            padding: 15px 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            display: grid;
+            margin: 10px;
+           
+        }
+        .menu1 a{
+            text-decoration: none;
+            background-color: rgb(247, 55, 55);
+            color: rgb(15, 0, 0);
+            border-radius: 5px;
+            padding: 15px 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            display: grid;
+            margin: 10px;
+            text-decoration: none;
+        }
+        .group{
+            display: grid;
+            justify-content: right;
+            right: 20px;
+            grid-column-gap: 10px;
+            
+        }
+        .menu2 a{
+            background-color: #f1efef;
+            color: #f1efef;
+
+        }
+        
+        .courset{
+            display: none;
+        }
+        
+
+        .hr {
+            border: 1px solid #D1D1D1;
+            width: 700px;
+        }
+
+        
+        
+        .course-banner img {
+            width: 200px;
+            height: 115px;
+            
+        }
+
+        
+        
+
+       
+        .timing {
+            color: #FF4A60;
+            background-color: #FFE4E8;
+            border-radius: 20px;
+            padding: 8px;
+        }
+
+        .course-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 10px;
+        }
+        .team{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 13px;
+           
+           
+        }
+        .team1{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 12px;
+            margin-top: 25px;
+            
+           
+           
+        }
+        .course {
+            width: 200px;
+            height: 290px;
+            padding: 12px;
+            border: 1px solid rgb(206, 202, 202);
+            border-radius: 10px;
+            box-shadow: 5px 6.34229px 13.3557px rgba(17, 1, 1, 0.05);
+            grid-column-gap: 10px;
+        }
+        .courset{
+            width: 200px;
+            height: 290px;
+            padding: 12px;
+            border: 1px solid rgb(206, 202, 202);
+            border-radius: 10px;
+            box-shadow: 5px 6.34229px 13.3557px rgba(17, 1, 1, 0.05);
+            grid-column-gap: 10px;
+            
+        }
+        
+            
+        
+        /* 3rd section */
+        .goal{
+            display: flex;
+            justify-content: center;
+            padding: 10px 10px;
+            grid-column-gap: 35px;
+        }
+        h2{
+           
+            text-align: center;
+        }
+        .goals{
+            background-color: rgb(77, 133, 155);
+            width: 1114px;
+            height: 200px;
+        }
